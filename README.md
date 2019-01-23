@@ -1,9 +1,11 @@
-# Recession-Predictor
-machine learning models to predict recessions
-
 Recession forecaster
 Recession: 2 consecutive quarters with -GDP growth
-Dependent variable – recession (y/n) OR GDP growth
+Dependent variable – 
+•	recession (y/n) OR GDP growth
+o	NBER based Recession Indicators for the United States from the Period following the Peak through the Trough (USREC)	
+•	OPTIONAL
+o	Smoothed U.S. Recession Probabilities (RECPROUSM156N)
+o	Real Gross Domestic Product (A191RL1Q225SBEA)
 Independent variables – 
 •	stock market – 
 o	S&P 500 (SP500)
@@ -21,8 +23,13 @@ o	Contributions to percent change in real gross domestic product: Gross private 
 •	retail sales
 o	Volume of Total Retail Trade sales for the United States (SLRTTO01USQ661S)
 •	building permits
+o	New Private Housing Units Authorized by Building Permits (PERMIT)
 •	housing market
+o	Median Sales Price of Houses Sold for the United States (MSPUS)
 •	level of new business startups 
+o	https://www.bls.gov/bdm/entrepreneurship/bdm_chart1.htm
 •	interest rates
+•	leading index
+o	Leading Index for the United States (USSLIND)
 •	employment
 o	All Employees: Retail Trade (USTRADE)
